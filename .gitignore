@@ -1,0 +1,9 @@
+node_modules
+.nyc_output
+.DS_Store
+.vscode/
+.idea/
+package-lock.json
+*.pem
+dist/*
+lint-report.json

@@ -1,0 +1,15 @@
+node_modules
+test
+templates
+.nyc_output
+.dockerignore
+Dockerfile
+.eslintrc.js
+.DS_Store
+.vscode/
+.idea/
+*.pem
+README.md
+src
+*.tgz
+tsconfig.json
