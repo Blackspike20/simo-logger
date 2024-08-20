@@ -14,8 +14,8 @@ process.stdout.write = (chunk, encoding, callback) => {
   return originalStdoutWrite(chunk, encoding, callback);
 };
 
-describe("Tests aea-logger", () => {
-  it("isNotEmpty", async () => {
+describe("Tests aea-logger", function() {
+  it("isNotEmpty", async function() {
     output = "";
     logger.level = "info";
     logger.info("test logger");

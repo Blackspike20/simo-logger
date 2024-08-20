@@ -4,7 +4,7 @@
   "description": "Librería para trazas en consola", 
   "main": "src/index.js",
   "scripts": {
-    "lint-ps": "eslint ./ --fix",
+    "lint-ps": "eslint . --fix",
     "lint": "eslint . --fix; eslint . -f json -o lint-report.json",
     "coverage": "nyc mocha --use_stric",
     "test": "mocha --timeout 100000",
