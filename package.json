@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Librería para trazas en consola", 
   "main": "src/index.js",
+  "engines": {
+    "node": "~20"
+  },
   "scripts": {
     "lint-ps": "eslint . --fix",
     "lint": "eslint . --fix; eslint . -f json -o lint-report.json",
@@ -10,6 +13,7 @@
     "test": "mocha --timeout 100000",
     "tsc": "true"
   },
+  "keywords": [],
   "author": "Simo",
   "license": "ISC",
   "dependencies": {
