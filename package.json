@@ -1,6 +1,6 @@
 {
   "name": "simo-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Librería para trazas en consola", 
   "main": "src/index.js",
   "engines": {
